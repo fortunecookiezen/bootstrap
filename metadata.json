@@ -1,0 +1,15 @@
+{
+  "name": "fortunecookiezen-bootstrap",
+  "version": "0.1.0",
+  "author": "fortunecookiezen",
+  "summary": "Puppet module to bootstrap puppet client installation.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/fortunecookiezen/something",
+  "project_page": "https://githhub.com/fortunecookiezen/something",
+  "issues_url": "https://github.com/fortunecookiezen/something",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
