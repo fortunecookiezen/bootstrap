@@ -41,7 +41,7 @@ basic use of the module.
 
 execute during provisioning with:
 
-`puppet apply -modulepath=`pwd` -e "include bootstrap"`
+`puppet apply -modulepath=\`pwd\` -e "include bootstrap"`
 
 After that, use your regular puppet workflow to finish configuration of the server.
 
