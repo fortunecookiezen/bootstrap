@@ -33,15 +33,13 @@ none
 
 ### Beginning with bootstrap
 
-The very basic steps needed for a user to get the module up and running. This
-can include setup steps, if necessary, or it can be an example of the most
-basic use of the module.
+This module requires `puppetlabs-stdlib` to be in the modulepath.
 
 ## Usage
 
 execute during provisioning with:
 
-`puppet apply -modulepath=\`pwd\` -e "include bootstrap"`
+`puppet apply -modulepath=$PWD -e "include bootstrap"`
 
 After that, use your regular puppet workflow to finish configuration of the server.
 
@@ -54,13 +52,11 @@ se.
 
 ## Limitations
 
-This is where you list OS compatibility, version compatibility, etc. If there
-are Known Issues, you might want to include them under their own heading here.
+This module has been tested on Centos 6/RHEL 6.
 
 ## Development
 
-Since your module is awesome, other users will want to play with it. Let them
-know what the ground rules for contributing are.
+This project lives at https://github.com/fortunecookiezen/bootstrap
 
 ## Release Notes/Contributors/Etc. 
 
